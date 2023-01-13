@@ -850,8 +850,8 @@ if ospath.exists('categories.txt'):
             else:
                 CATEGORY_INDEX.append('')
 
-if True:
-    Popen(f"gunicorn web.wserver:app --bind 0.0.0.0:{SERVER_PORT}", shell=True)
+
+Popen(f"gunicorn web.wserver:app", shell=True)
 
 srun(["qbittorrent-nox", "-d", "--profile=."])
 if not ospath.exists('.netrc'):
