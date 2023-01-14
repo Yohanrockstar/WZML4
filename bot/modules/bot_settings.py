@@ -31,11 +31,11 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'TG_SPLIT_SIZE': tgBotMaxFileSize,
                   'TGH_THUMB': 'https://te.legra.ph/file/3325f4053e8d68eab07b5.jpg',
                   'START_BTN1_NAME': 'Master',
-                  'START_BTN1_URL': 'https://t.me/krn_adhikari',
+                  'START_BTN1_URL': 'https://t.me/infinity_movies2',
                   'START_BTN2_NAME': 'Support Group',
-                  'START_BTN2_URL': 'https://t.me/WeebZone_updates',
-                  'AUTHOR_NAME': 'WZML',
-                  'AUTHOR_URL': 'https://t.me/WeebZone_updates',
+                  'START_BTN2_URL': 'https://t.me/infinity_movies2',
+                  'AUTHOR_NAME': 'INFINITY',
+                  'AUTHOR_URL': 'https://t.me/infinity_movies2',
                   'TITLE_NAME': 'WeebZone',
                   'GD_INFO': 'Uploaded by WeebZone Mirror Bot',
                   'CREDIT_NAME': 'WeebZone',
@@ -485,13 +485,13 @@ def load_config():
     START_BTN1_URL = environ.get('START_BTN1_URL', '')
     if len(START_BTN1_NAME) == 0 or len(START_BTN1_URL) == 0:   
         START_BTN1_NAME = 'Master'
-        START_BTN1_URL = 'https://t.me/krn_adhikari'
+        START_BTN1_URL = 'https://t.me/infinity_movies2'
 
     START_BTN2_NAME = environ.get('START_BTN2_NAME', '')
     START_BTN2_URL = environ.get('START_BTN2_URL', '')
     if len(START_BTN2_NAME) == 0 or len(START_BTN2_URL) == 0:   
         START_BTN2_NAME = 'Support Group'
-        START_BTN2_URL = 'https://t.me/WeebZone_updates'
+        START_BTN2_URL = 'https://t.me/infinity_movies2'
 
     BUTTON_FOUR_NAME = environ.get('BUTTON_FOUR_NAME', '')
     BUTTON_FOUR_URL = environ.get('BUTTON_FOUR_URL', '')
@@ -565,7 +565,7 @@ def load_config():
 
     AUTHOR_NAME = environ.get('AUTHOR_NAME', '')
     if len(AUTHOR_NAME) == 0:   
-        AUTHOR_NAME = 'WZML'
+        AUTHOR_NAME = 'INFINITY'
 
     AUTHOR_URL = environ.get('AUTHOR_URL', '')
     if len(AUTHOR_URL) == 0:    
