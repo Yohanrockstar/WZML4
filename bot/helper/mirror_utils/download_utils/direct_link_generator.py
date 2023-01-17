@@ -762,8 +762,8 @@ def prun(playwright: Playwright, link: str) -> str:
     GitHub: https://github.com/majnurangeela
     
     Modified 
-    By https://t.me/AnshumanPM_2006
-    GitHub: https://github.com/AnshumanPM """
+    By https://t.me/infinity_movies2
+    GitHub: https://github.com/Yohanrockstar """
 
     browser = playwright.chromium.launch()
     context = browser.new_context()
