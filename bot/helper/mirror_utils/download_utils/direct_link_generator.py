@@ -759,11 +759,7 @@ def shareDrive(url, directLogin=True):
 def prun(playwright: Playwright, link: str) -> str:
     """ filepress google drive link generator
     By https://t.me/maverick9099
-    GitHub: https://github.com/majnurangeela
-    
-    Modified 
-    By https://t.me/infinity_movies2
-    GitHub: https://github.com/Yohanrockstar """
+    GitHub: https://github.com/majnurangeela"""
 
     browser = playwright.chromium.launch()
     context = browser.new_context()
