@@ -781,7 +781,7 @@ def prun(playwright: Playwright, link: str) -> str:
     expect(secondBtn).to_be_visible()
     with page.expect_navigation():
         secondBtn.click()
-        sleep(5)
+        sleep(10)
 
     chklink = page.url
     if not 'filepress' in chklink:
