@@ -772,16 +772,17 @@ def prun(playwright: Playwright, link: str) -> str:
     expect(firstbtn).to_be_visible()
     firstbtn.click()
     sleep(10)
+    
+    chklink = page.url
+
+    if not 'filepress' in chklink:
+        raise DirectDownloadLinkException("Unable To Get Google Drive Link!")
 
     secondBtn = page.get_by_role("button", name="Download Now")
     expect(secondBtn).to_be_visible()
     with page.expect_navigation():
         secondBtn.click()
         sleep(10)
-
-    chklink = page.url
-    if not 'filepress' in chklink:
-        raise DirectDownloadLinkException("Unable To Get Google Drive Link!")
 
     Flink = page.url
 
