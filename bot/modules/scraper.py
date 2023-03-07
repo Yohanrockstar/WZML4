@@ -93,7 +93,7 @@ def scrapper(update, context):
         x = soup.select('a[href^="https://filepress"]')
         for a in x:
             links.append(a['href'])
-        for o in links:
+        for for i, o in enumerate(links):
             res = rget(o)
             soup = BeautifulSoup(res.content, "html.parser")
             title = soup.title
