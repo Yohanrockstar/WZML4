@@ -93,12 +93,11 @@ def scrapper(update, context):
         x = soup.select('a[href^="https://filepress"]')
         for a in x:
             links.append(a['href'])
-        for no, link in enumerate(links, start=1):
+        for o in links:
             res = rget(o)
             soup = BeautifulSoup(res.content, "html.parser")
             title = soup.title
-            prsd += f"{no}\n{(title[o]
-['content']).replace('Download',")}</code>\n{prsd}\n\n"
+            prsd += f'{title}\n{o}\n\n'
             if len(prsd) > 4000:
                 sendMessage(prsd, context.bot, update.message)
                 prsd = ""
