@@ -96,7 +96,7 @@ def scrapper(update, context):
         for i, o in enumerate(links):
             res = rget(o)
             soup = BeautifulSoup(res.content, "html.parser")
-            title = soup.title
+            i = soup.title
             prsd += f"{i}\n{o}\n\n'
             if len(prsd) > 4000:
                 sendMessage(prsd, context.bot, update.message)
