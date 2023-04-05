@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "rockstaryohan",
+  "private_key_id": "7e984e197767e533c73788ab5a569fb54cb94799",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCzKqkup47/+F7E\nJGPSTmk73uL/Oclzq7xc9sXHbVwIS5bqVgV0BIm1q8Gam0LOxIl30eYMWmDdTIdB\n7FeABjMoaUq2FTCtLNbUHzyK3EkkZB9vEBJJrCi/O+Q8mME164sVA/KO9YD9pzC3\ntu7YrcvAoD3jNU6iSVOHzPfQVF6gvOu9GAUi6LHP2cDKcl6pTeTUs+bNFDqlPkY3\nGlUjVEbkCFgyZIZp+X6luJsTyzuPrqZBlAAJkRnkC29UtokE8lkW/ujhEhBp3FMB\nQmitkllslXnn2UwoB6PazCZzahbNiS6CvNBM/cindpDBkMMEegu9gT2tETp75a8R\nrz0jxBAtAgMBAAECggEACx1zqvkKqk8cg/MU/URPi38PmpFZcdNe526IxQ9ABSS5\nW1bUVkb8yxg5dc+5hI3VUGllafFGbpwzjO+uWvsne9OSZrroTuoH9tdsQFobsIYE\nnDWFSOxFB94dkfPRErkG4xogV2WcJ8BSSadv6GHZ0NywEjMpqnA9niBlZFeDmlmb\nR9S1+3qR1u52qzIzSnt6RUoKuu6uQx9JGCr8io9L3ibCRoQmp25GIm1QZxIxxnSl\nSM31Jq29phJZNAABG1Xhk+IK6/tCDcxKDZMHuGOIE2b6SECF1MbStlFC8ltHfKCu\nZe8QxhdMBCvxoFtgHwWrqvOEArgSORVT6j9X2ba/YQKBgQDylCpHZ75aFYgOJIK8\nI3YwO4LO3dcb/pE+akMiauzR27RTE/1HWEow/88N5nNxpmSkrsv6m+sfO/1xXq4b\nyEWGm6/Mw5SjOeyQxwrbTGhZUvgd9nYK4XCZqASzpInan9ly/ZurzMzICxlDmvWr\nWwTliNew311D5mAV2eVGeCzVzQKBgQC9FFbzogoBf0U1bqUx/irl1gMUoWdjc+hI\nW6PiW7rX1/qVMmY6a5Ztkw66MEfKH0lcg4NILaq+bS67drxv3DKc0aBg4yA0X6Bu\nolsb4+Uid6ZJ34ymNJ6YqeEK+KujPgfx4hFve3LnfV9YPsS+wwTOxWhGABXosMhT\nZpZPcoXD4QKBgQCM5NP9r1sXVaQ1mq04e1xdPWOHpcAYKW7REsU1i2dLqNF+44Bb\n3QMSnLH1f+GTpDKWmFQvljolZSGapIR57IO9YFXml76QY8dse79pimKdZxxnwsvj\nG/fbt4Qrlyjei7OwH284hPZ4RkIBS1LfmTkp3KZyu/mew4MRjgKmQIzCDQKBgE9G\nteZUrElQaV4r1AuP+8B96LC/s6+ZK20bLy17NG3HWoMvrHkWHu42WFhsYc03LPUj\nFuoua4aIFK347K0h7/6cTdgRorES3xtD61tYQ/wdmpUiq8AME+sCXx7QgHZjTcV2\n+cR6SAUTJeTD/I3XCq7/Seb/pi/33yZIvwD0jW1BAoGBAOSXNq4dLRnmGCJTpxec\nln2cO9z6pVBl2fP9JajzGTXms7Yx+gtWuUU5S3I1AeB/c0XuJ5DIgB/BCBJ8W7rx\nge8tzyA05xZHPV8tMWiG6Pud+V8H5PeWntbTz6RHt+1dM6bye/hrIIVxVHTHORuv\nBxS79MPlm3U/yuHswJDIk8W3\n-----END PRIVATE KEY-----\n",
+  "client_email": "mfc-n4pbxg5wivhnuwa3door1x14df@rockstaryohan.iam.gserviceaccount.com",
+  "client_id": "102336529333490203835",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mfc-n4pbxg5wivhnuwa3door1x14df%40rockstaryohan.iam.gserviceaccount.com"
+}
