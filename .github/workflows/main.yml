@@ -48,4 +48,4 @@ jobs:
 
           push: true
 
-          tags: yohanrockstar/mltb:stable
+          tags: yohanrockstar/mltb:latest
